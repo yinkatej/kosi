@@ -1,0 +1,59 @@
+.s-container {
+    height: 100vh;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+
+}
+.s-container img{
+    border-radius: 10px;
+    margin:auto
+    
+}
+.add{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    font-size: 50px;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+input[type='text'], input[type="submit"]{
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(85, 83, 81, 0.212);
+    padding: 10px 20px;
+}
+input:focus{
+    outline: none;
+}
+.s-btn{
+    color: white;
+    background-color: rgb(19, 245, 19);
+    font-size: large;
+}
+h2{
+    text-align: center;
+}
+input[type="file"]{
+    font-size: 19px;
+
+}
